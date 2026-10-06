@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'id.dhodi.gamecontrol'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'id.dhodi.gamecontrol'
+        minSdk 29
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+}
